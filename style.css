@@ -58,5 +58,6 @@ canvas {
 }
 
 .active {
-  background-color: #010101 !important;
+  border: 5px solid rgb(255, 139, 61);
+  box-shadow: 0 0 10px rgb(255, 139, 61);
 }

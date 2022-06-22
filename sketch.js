@@ -58,6 +58,7 @@ function setup() {
   createCanvas(WIDTH, HEIGHT);
   generateTerrain();
   doEventListeners();
+  setActiveContainer(grassContainer);
 }
 
 function doEventListeners() {
