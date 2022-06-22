@@ -122,7 +122,8 @@ function checkIfPlayerWon() {
 }
 
 function restart() {
-  window.location.href = "../";
+  let url = window.location.href;
+  window.location.href = url.substring(0, url.lastIndexOf("/"));
 }
 
 function generateTerrain() {
